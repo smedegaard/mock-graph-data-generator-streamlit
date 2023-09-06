@@ -26,7 +26,7 @@ imported_file = None
 
 # Streamlit runs from top-to-bottom from tabs 1 through 8. This is essentially one giant single page app.  Earlier attempt to use Streamlit's multi-page app functionality resulted in an inconsistent state between pages.
 
-t0, t1, t2, t3, t4, t5, t6 = st.tabs([
+t0, t1 = st.tabs([
     #"⓪ Getting Started",
     #"① Ideate",
     "② Design",
